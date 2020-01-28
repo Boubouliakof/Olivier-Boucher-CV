@@ -1,58 +1,24 @@
 body{
-    max-width: 1190px;
     margin:auto;
     font-family: 'calibri', sans-serif;
     color:#424242;
     font-weight: 200;
-    border: solid 2px red;
+    text-align: center;
 }
-header {
-    display: flex;
-    flex-direction: row;
-}
-span {
-    color:rgb(254, 202, 7);
-}
-.droite{
-    padding-left: 60px;
-}
-header img {
-    width: 250px;
-    background-color: rgb(254, 202, 7);
-}
-.photo {
-    height: auto;
-    width: 250px;
-    background-color: rgb(254, 202, 7);
-}
-.container{
-    display: flex;
-    flex-direction: row;
-}
-a{
-    text-decoration: none;
-    color: #424242;
-}
-aside{
-    background-color:rgb(254, 202, 7);
-    width: 250px;
-}
-address {  
-    font-style: normal;
-    font-weight: 500;
-    margin: 0;
-}
-address p{
-    margin: 0;
-}
-.contact{
-    padding: 0 40px 20px 40px;
+header hr{
+    border: 1px solid rgb(254, 202, 7);
+    width: 10%;
+    margin-left: 44px;
 }
 h1{
     font-size:4em;
     margin-top:100px;
     margin-bottom:0px;
     font-weight: 200;
+}
+h1 span{
+    color: rgb(254, 202, 7);
+    font-weight:400;
 }
 h2{
     margin-top:0;
@@ -69,18 +35,69 @@ h3{
 h4{
     margin:0;
 }
-h1 span{
-    color: rgb(254, 202, 7);
-    font-weight:400;
-}
-header hr{
-    border: 1px solid rgb(254, 202, 7);
-    width: 10%;
-    margin: 0px;
+aside{
+    background-color: rgb(254, 202, 7);
 }
 aside h3{
     background-color:#424242;
     padding : 10px;
     text-align: center;
     color: rgb(254, 202, 7);
+}
+address {  
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+}
+address p{
+    margin: 0;
+}
+.contact{
+    padding: 0 40px 20px 40px;
+}
+a{
+    text-decoration: none;
+    color: #424242;
+}
+a::hover{
+    background-color: blue;
+}
+@media only screen and (min-width: 750px){
+    body {
+        max-width: 1190px;
+        text-align: left;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+    span {
+        color:rgb(254, 202, 7);
+    }
+    .droite{
+        padding-left: 60px;
+    }
+    header img {
+        width: 250px;
+        background-color: rgb(254, 202, 7);
+    }
+    .photo {
+        height: auto;
+        width: 250px;
+        background-color: rgb(254, 202, 7);
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    aside{
+        background-color:rgb(254, 202, 7);
+        width: 250px;
+    }
+    header hr{
+        border: 1px solid rgb(254, 202, 7);
+        width: 10%;
+        margin: 0px;
+    }
+
 }
