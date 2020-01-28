@@ -59,8 +59,15 @@ a{
     text-decoration: none;
     color: #424242;
 }
-a::hover{
-    background-color: blue;
+aside .fas{
+    color:#424242;
+    font-size:3em;
+}
+.aside_loisir_icons{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin-top: 1rem;
 }
 @media only screen and (min-width: 750px){
     body {
@@ -70,9 +77,6 @@ a::hover{
     header {
         display: flex;
         flex-direction: row;
-    }
-    span {
-        color:rgb(254, 202, 7);
     }
     .droite{
         padding-left: 60px;
@@ -91,13 +95,13 @@ a::hover{
         flex-direction: row;
     }
     aside{
-        background-color:rgb(254, 202, 7);
         width: 250px;
     }
     header hr{
-        border: 1px solid rgb(254, 202, 7);
         width: 10%;
         margin: 0px;
     }
-
+    a:hover{
+        color: blue
+    }
 }
