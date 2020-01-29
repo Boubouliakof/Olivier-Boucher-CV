@@ -74,6 +74,11 @@ aside .fas{
     padding-bottom: 20px;
     margin-top: 1rem;
 }
+.color {
+    float:left;
+    padding-right: 10px;
+    color: rgb(254, 202, 7);
+}
 .date {
     float: left;
 }
@@ -126,7 +131,7 @@ aside .fas{
         color:#424242;
     }
     .date {
-        width: 30%;
+        width: 25%;
         height: 100%;
     }
     .poste {
