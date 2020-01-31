@@ -1,14 +1,13 @@
 body{
+    max-width: 450px;
     margin:auto;
     font-family: 'calibri', sans-serif;
     color:#424242;
     font-weight: 200;
     text-align: center;
 }
-header hr{
-    border: 1px solid rgb(254, 202, 7);
-    width: 10%;
-    margin-left: 44px;
+.underline{
+    border-bottom: 2px solid rgb(254, 202, 7);
 }
 h1{
     font-size:4em;
@@ -34,6 +33,13 @@ h3{
 }
 h4{
     margin:0;
+}
+.boulot h4 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 500;
+    color:#424242;
 }
 h5 {
     margin-top: 10px;
@@ -75,12 +81,30 @@ aside .fas{
     margin-top: 1rem;
 }
 .color {
+    width: auto;
     float:left;
-    padding-right: 10px;
+    padding: 0 10px 0 10px;
     color: rgb(254, 202, 7);
 }
+.bloc_date {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size:1.1em;
+    font-weight: 500;
+}
 .date {
-    float: left;
+    margin: auto;
+}
+.boulot {
+    margin-bottom: 50px;
+}
+.recommandation div {
+    margin-bottom: 30px;
+}
+.recommandation p {
+    margin: 0;
+    padding: 0 20px 0 20px;
 }
 @media only screen and (min-width: 750px){
     body {
@@ -123,20 +147,37 @@ aside .fas{
         margin-bottom: 70px;
         clear: both;
     }
-    .boulot h4 {
-        font-size: 1.3em;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        font-weight: 500;
-        color:#424242;
+    .bloc_date {
+        width: 45%;
+        text-align: left;
+        display: block;
     }
     .date {
-        width: 25%;
+        float: left;
+        width: 80%;
         height: 100%;
     }
     .poste {
         float: right;
-        width: 70%;
+        width: 55%;
     }
-
+    .recommandation {
+        width: 100%;
+        display: flex;
+    }
+    .recommandation div {
+        width: 45%;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .recommandation p {
+        margin: 0;
+        padding: 0;
+    }
+    .recommandation h4 {
+        margin-bottom: 5px;
+    }
+    .recommandation h5 {
+        margin: 0;
+    }
 }
