@@ -25,7 +25,7 @@ h2{
     font-weight: 400;
 }
 h3{
-    font-size:1.5em;
+    font-size:1.6em;
     text-transform: uppercase;
     border-bottom:2px solid rgb(254, 202, 7);
     padding-bottom:15px;
@@ -149,7 +149,7 @@ aside .fas{
     }
     .photo {
         height: auto;
-        width: 250px;
+        width: 300px;
         background-color: rgb(254, 202, 7);
         margin: 0;
     }
@@ -170,7 +170,10 @@ aside .fas{
         padding-right: 50px;;
     }
     aside{
-        width: 250px;
+        width: 300px;
+    }
+    .aside_bloc {
+        min-height: 400px;
     }
     .aside_loisirs {
         margin-top: 650px;
