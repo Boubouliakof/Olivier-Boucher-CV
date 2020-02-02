@@ -1,16 +1,16 @@
 body{
     max-width: 450px;
     margin:auto;
-    font-family: 'calibri', sans-serif;
+    font-family: 'Myriad Pro', sans-serif;
     color:#424242;
-    font-weight: 400;
+    font-weight: regular;
     text-align: center;
 }
 .underline{
     border-bottom: 2px solid rgb(254, 202, 7);
 }
 h1{
-    font-size:4em;
+    font-size:3.8em;
     margin-top:0;
     margin-bottom:0;
     font-weight: 200;
@@ -25,7 +25,7 @@ h2{
     font-weight: 400;
 }
 h3{
-    font-size:1.8em;
+    font-size:1.6em;
     text-transform: uppercase;
     border-bottom:2px solid rgb(254, 202, 7);
     padding-bottom:15px;
@@ -128,7 +128,7 @@ aside .fas{
     margin: 0;
     padding: 0 20px 0 20px;
 }
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 785px){
     body {
         max-width: 1190px;
         text-align: left;
@@ -172,9 +172,6 @@ aside .fas{
     aside{
         width: 250px;
     }
-    .title_address{
-
-    }
     .aside_loisirs {
         margin-top: 650px;
     }
@@ -192,7 +189,7 @@ aside .fas{
         clear: both;
     }
     .bloc_date {
-        width: 45%;
+        width: 40%;
         text-align: left;
         display: block;
     }
