@@ -128,7 +128,7 @@ aside .fas{
     margin: 0;
     padding: 0 20px 0 20px;
 }
-@media only screen and (min-width: 785px){
+@media only screen and (min-width: 820px){
     body {
         max-width: 1190px;
         text-align: left;
@@ -142,6 +142,7 @@ aside .fas{
     }
     .droite{
         padding-left: 60px;
+        width: 60%;
     }
     header img {
         width: 250px;
@@ -149,9 +150,10 @@ aside .fas{
     }
     .photo {
         height: auto;
-        width: 300px;
+        width: 35%;
         background-color: rgb(254, 202, 7);
         margin: 0;
+        max-width: 280px;
     }
     .photo img {
         margin: 50px 0 50px 0;
@@ -170,7 +172,8 @@ aside .fas{
         padding-right: 50px;;
     }
     aside{
-        width: 300px;
+        width: 35%;
+        max-width: 280px;
     }
     .aside_bloc {
         min-height: 400px;
